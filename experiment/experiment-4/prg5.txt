@@ -1,0 +1,28 @@
+1. Default Constructor (No Arguments)
+
+Employee() {
+    name = "Unknown";
+    age = 18;
+}
+
+2. Parameterized Constructor
+
+Employee(String name, int age) {
+    this.name = name;
+    this.age = age;
+}
+
+3. Constructor Overloading
+
+Employee() {
+    this("Default Name", 18);
+}
+
+Employee(String name) {
+    this(name, 18);
+}
+
+Employee(String name, int age) {
+    this.name = name;
+    this.age = age;
+}
